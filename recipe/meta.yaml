@@ -17,7 +17,8 @@ requirements:
   host:
     - python
     - pip
-    - setuptools_scm >=1.15.0
+    - setuptools_scm >=3.4.1
+    - toml
   run:
     - python
     - importlib_metadata >=0.5  # [py<38]
