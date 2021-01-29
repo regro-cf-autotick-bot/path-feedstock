@@ -1,4 +1,4 @@
-{% set version = "15.0.1" %}
+{% set version = "15.1.0" %}
 
 package:
   name: path
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/path/path-{{ version }}.tar.gz
-  sha256: 298dca9d8e82a2cf224e302ed1cf48269cbc3d35502b94c335383ca053c1c2fa
+  sha256: ecf8a58ee4e45bf68a3c96e9715cac8b542e9790485193ec92e34957637624f8
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<35]
   script: {{ PYTHON }} -m pip install . -vv
 
